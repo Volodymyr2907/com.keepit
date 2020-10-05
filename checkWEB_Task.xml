@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="verify web">
+    <test name="users service">
+        <parameter name="browser" value="CH"></parameter>
+        <parameter name="username" value="automation@keepitqa.com"></parameter>
+        <parameter name="password" value="E#*b2wGIbFHz"></parameter>
+        <parameter name="expectedTitleName" value="Create new Office 365 connector"></parameter>
+        <classes>
+            <class name="com.keepit.web.test.OfficeTest"></class>
+        </classes>
+    </test>
+</suite>

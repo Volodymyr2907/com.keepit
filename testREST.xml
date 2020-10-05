@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="verify endpoint">
+    <test name="users service">
+        <parameter name="guid" value="zhc4v6-5ev7di-9hhhlm"></parameter>
+        <classes>
+            <class name="com.keepit.rest.test.UsersTest"></class>
+        </classes>
+    </test>
+</suite>
